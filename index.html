@@ -10,10 +10,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
+        <div id="container">
+        <div class="top_row">
+            <div class="box" id="top_left" onclick="Game.Middle()">o</div>
+            <div class="box" id="top_middle">x</div>
+            <div class="box" id="top_right">x</div>
+
+        </div>
+        <div class="Middle_row">
+            <div class="box" id="middle_left">o</div>
+            <div class="box" id="middle_middle">o</div>
+            <div class="box" id="middle_right">x</div>
+
+        </div>
+        <div class="Bottom_row">
+            <div class="box" id="bottom_left">x</div>
+            <div class="box" id="bottom_middle">o</div>
+            <div class="box" id="bottom_right">x</div>
+
+        </div>
+        <button onclick="Game.Middle()">test</button>
+
+
+        </div>
         <script src="javascript.js" async defer></script>
     </body>
 </html>

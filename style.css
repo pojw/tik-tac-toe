@@ -1,0 +1,32 @@
+
+
+#top_left{
+    color: green;
+}
+
+body{display:flex;
+    align-self: center;
+    justify-self: center}
+
+#container{
+    display:grid;
+    background: blue;
+    gap:10px;
+    grid-template-rows: repeat(3,110px);
+    grid-template-columns: 330px;
+}
+.top_row,.Bottom_row,.Middle_row{display: flex;
+    gap:10px;
+    align-items: center;
+    justify-self: center;
+    border-width: 10px;
+
+}
+.box{background: red;
+    display:flex;
+    justify-content: center;
+    align-items: center
+;    width:100px;
+    height: 100px;
+    font-size:50px
+}
